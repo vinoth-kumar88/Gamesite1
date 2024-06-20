@@ -1,0 +1,130 @@
+body{
+  background: #F8FAFB;
+  min-height: 100vh;
+}
+
+/* .card-wrap {
+  display: flex;
+  place-content: left;
+  inset: 0;
+  transform-style: preserve-3d;
+  perspective: 800px;
+  margin-top: 100px;
+  
+} */
+
+.imgcard{
+  border: none !important;
+  flex-direction: row !important;
+  gap: 5px;
+  margin-top: 100px;
+}
+
+.imgcard img{
+    border-radius: 1.5rem;
+    height: 30vh;
+    aspect-ratio: 1;
+     background-size: cover;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    /* width: 18rem; */
+    /* transform: rotateX(10deg) rotateY(10deg);*/
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box>* {
+  flex: 1 1 auto;
+}
+/* .card:hover {margin: 2px;} */
+
+.moregames{
+  margin: 15px;
+  text-align: center;
+  padding: 5px;
+}
+
+.moregames .btn{
+  width: 50%;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.gads{
+  margin: 10px;
+  width: auto;
+  height: auto;
+}
+
+.gamescat{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.lb-ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.lb-ul li a{
+  text-align: left;
+}
+
+.navclr{
+  color: black !important;
+}
+
+.btnclr{
+background-color: #Ffffff !important;
+}
+
+.about{
+background-color: #Ffffff;
+border-radius: 10px;
+width: auto;
+height: auto;
+padding: 15px;
+text-align: justify;
+}
+
+.footer{
+  background-color: black;
+  margin-top: 10px;
+  padding-top: 10px;
+  height: 30vh;
+}
+
+.footer ul li a{
+  color: #Ffffff;
+  text-decoration: none;
+}
+
+.footer ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer  ul li{
+display:inline-block;
+padding: 5px;
+}
+
+.logo, .copy{
+  text-align: center;
+}
+
+.copy p{
+  color: #Ffffff;
+  padding-top: 10px;
+}
+
+.cardimg img:hover{
+  transition: width 2s, height 2s, transform 2s;
+  height: 35vh;
+}
+
