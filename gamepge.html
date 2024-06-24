@@ -29,9 +29,9 @@
             <li class="nav-item">
               <a class="nav-link active navclr" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link active navclr" aria-current="page" href="#about" >About Us</a>
-            </li>
+            </li> -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle navclr" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Games
@@ -62,8 +62,9 @@
     </div>
   </nav>
   <section class="container">
-    <div class="imgcard card-img-top box pointer">
-    
+    <div class="topspace">
+    <img src="./images/sgamepage.jpg" width="100%" alt="Bootstrap">
+    <h3>Please Wait Loading..........</h3>
     </div>
     <div class="moregames">
       <button type="button" class="btn btn-primary">More Games</button> 
@@ -72,7 +73,7 @@
       Google Ads
     </div>
     <div class="gamescat">
-       <h3>Game Categories</h3>
+       <h3>Latest Games</h3>
        <ul class="lb-ul"> 
           <li>
             <a href="#" target="_blank" class="btn btnclr btn-light">
@@ -144,38 +145,6 @@
       </div>
     </div>
  </body>
- <script language="javascript">
-  $(document).ready(function(){
-  var dir = "./images/icons/"; // folder location
-  var fileextension = ".jpg"; // image format
-  var i = "1"; 
-
-  $(function imageloop(){
-    
-    $("<img /><br/>").attr({src: dir +'m'+ i + fileextension, id: 'm'+ i }).appendTo(".imgcard");
-        if (i==24){
-       $('.imgcard img').hover(
-                
-                function() {
-                    $(this).addClass('hover-effect');
-                },
-                function() {
-                    $(this).removeClass('hover-effect');
-                }
-            );
-            $('.imgcard img').click(
-                function() {
-                   window.location.href = "gamepge.html"
-                });
-    }
-    else{
-      i++;
-      imageloop();
-    };
-  });   
-
-});
-  </script>
 </html>
 
 
